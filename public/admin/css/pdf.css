@@ -1,0 +1,71 @@
+/*
+Theme Name: Invoice V1
+Theme URI: https://templatesjungle.com/
+Author: TemplatesJungle
+Author URI: https://templatesjungle.com/
+Description: Invoice V1 is specially designed product packaged for Invoice.
+Version: 1.1
+*/
+
+/*--------------------------------------------------------------
+Styles
+--------------------------------------------------------------*/
+
+/* Fonts */
+:root {
+    --body-font: 'Poppins', sans-serif;
+}
+
+/* Bootstrap Override */
+body {
+    --bs-font-sans-serif: 'Poppins', sans-serif;
+    --bs-body-font-family: var(--bs-font-sans-serif);
+    --bs-body-font-size: 1rem;
+    --bs-body-font-weight: 400;
+    --bs-body-line-height: 2;
+    --bs-body-color: #41403e;
+    --bs-primary: #0070e4;
+    --bs-primary-rgb: 0, 112, 228;
+    --bs-border-color: #eeeeee;
+}
+
+#invoice {
+    max-width: 11cm;
+    margin: 0 auto;
+}
+
+.container {
+    padding: 10px;
+}
+
+.table th,
+.table td {
+    padding: 5px;
+}
+
+.display-5 {
+    font-size: 1.5rem;
+}
+
+h2,
+h4,
+h5 {
+    font-size: 1rem;
+}
+
+p,
+li {
+    font-size: 0.75rem;
+}
+
+.fw-bold {
+    font-weight: bold;
+}
+
+.fw-semibold {
+    font-weight: 600;
+}
+
+.social-icon {
+    font-size: 0.75rem;
+}
